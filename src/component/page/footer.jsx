@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../../assets/image-18.PNG'
+import img1 from '../../assets/image-18.png'
 import { Link } from 'react-router-dom';
 const Footercomp = () => {
   return (
