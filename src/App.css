@@ -1,0 +1,87 @@
+.body{
+    overflow-x: hidden;
+    background-color: #e6f0e6;
+}
+.slide-one{
+background-image: url('assets/slide-one.jpg');
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.slide-two{
+background-image: url('assets/mosque.jpg');
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.slide-three{
+background-image: url('assets/pexels-olugbenga-ladipo-1193324626-27978228.jpg');
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+.ca{
+    background-color: #0000005f;
+    color: white;
+   padding-top: 200px;
+   text-align: center;
+    height: 100vh;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+.about{
+    font-size: 18px;
+    font-weight: 300px;
+    line-height: 24px;
+    
+}
+.accord{
+    padding-right: 20px;
+    width: 500px;
+}
+.green{
+    background-color: green;
+    height: 30vh;
+    margin: -1rem;
+    margin-bottom: 0;
+}
+/* .footer{
+    list-style-type: none;
+    display: flex;
+} */
+ .slider{
+    background-image: url('assets/hormina.jpg');
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+ }
+ .slid{
+    background-image: url('assets/abuja.webp');
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+ }
+ .sli{
+    background-image: url('assets/unnamed.webp');
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+ }
+ /* .opay{
+    background-image: url('assets/pixel.jpg');
+    height: 100dvh;
+    
+    background-repeat: no-repeat;
+    background: cover ;
+ } */
+  a.nav-link.active{
+    background-color: rgb(7, 103, 39) !important;
+  }
