@@ -3,7 +3,7 @@ import Accordcomp from './Accordion';
 import img1 from '../../assets/imgy.jpg'
 const Aboutus = () => {
   return (
-    <div className='about container-fluid ' style={{backgroundColor:'white',marginTop:'14vh'}}>
+    <div className='about container-fluid'style={{backgroundColor:'white',marginTop:'14vh'}}>
       <div className='bg-success green'><h1 style={{color:'white',paddingTop:'60px',textAlign:'center'}}>About Us</h1></div>
       <div style={{display:'flex',alignItems:'center', justifyContent:'space-between'}}>
         <Accordcomp />
