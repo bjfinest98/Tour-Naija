@@ -8,10 +8,10 @@ import { FaYoutube } from "react-icons/fa";
 import { LuPhoneCall } from "react-icons/lu";
 function LayoutComp() {
   return (
-    <div style={{display:'flex',}}>
-      <div style={{backgroundColor:'green',maxHeight:'100vh',width:'650px',marginLeft:'30px',borderRadius:'10px'}}>
+    <div className='d-flex who'>
+      <div className='form'>
         <h4 style={{fontFamily:'lato', textAlign:'center',paddingTop:'20px',color:'white'}}>Drop Us a Message</h4>
-    <Form style={{width:'600px',paddingTop:'0px',paddingLeft:'20px'}}>
+    <Form className='why'>
       <Form.Group className="mb-3" controlId="formGroupEmail">
         <Form.Label></Form.Label>
         <Form.Control type="email" placeholder="Enter your email address" required />
@@ -31,7 +31,7 @@ function LayoutComp() {
     </Form>
     <button style={{marginLeft:'20px',height:'50px',width:'200px',border:'none',marginBottom:'10px',borderRadius:'5px'}} onClick={()=> alert("Booking details confirmation will be sent to your email, Contact: +234 9058120048 to confirm reservation")} type="button">Send Message</button>
     </div>
-    <div style={{backgroundColor:'none',maxHeight:'100vh',marginLeft:'50px',width:'375px',borderRadius:'10px'}}>
+    <div className='mon' style={{backgroundColor:'none',maxHeight:'100vh',marginLeft:'50px',width:'375px',borderRadius:'10px'}}>
             <h4 style={{textAlign:'center',color:'green'}}>INFORMATION</h4>
             <div style={{marginTop:'20px'}}>
            <a href='https://web.facebook.com/abdulmalik98729/videos' style={{color:'green',textDecoration:'none',fontFamily:'lato'}}> <RiFacebookFill   style={{color:'green',width:'100px',fontSize:'30px',marginTop:''}}/>@naijatour</a>

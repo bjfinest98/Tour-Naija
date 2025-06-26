@@ -3,11 +3,11 @@ import img1 from '../../assets/image-18.png'
 import { Link } from 'react-router-dom';
 const Footercomp = () => {
   return (
-    <div>
-        <img style={{width:'1440px',paddingTop:'50px'}} src={img1} alt="" />
-        <div>
+    <div className='me'>
+        <img className='billion' src={img1} alt="" />
+        <div className='war'>
             <div style={{listStyleType:'none',display:'flex',justifyContent:'space-evenly',paddingTop:'20px',textAlign:'center'}}>
-                <div c>
+                <div >
                  <h4>Tour nigeria</h4>
             <ul style={{listStyleType:'none',color:'black'}}>
                 <li><Link style={{textDecoration:'none',color:'black'}} to='/Home'> Home</Link></li>
