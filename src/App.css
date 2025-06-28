@@ -112,6 +112,10 @@ background-position: center;
     width:1440px;
     padding-top:50px;
 }
+.navbar-toggler.collapsed{
+    
+    background-color: white !important;
+}
 /* .bad{
     color:'white';
     padding-top:'87px';
@@ -146,6 +150,10 @@ background-position: center;
 .war{
     font-size: 12px;
 }
+.navbar-toggler.collapsed{
+    background-color: white;
+}
+
 }
 
 /* Larger Mobile (SM) */
